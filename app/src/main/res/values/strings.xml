@@ -1,0 +1,37 @@
+<resources>
+    <!-- bottom navigation -->
+    <string name="app_name">Shopping</string>
+    <string name="home">Головна</string>
+    <string name="categories">Категорії</string>
+    <string name="cart">Кошик</string>
+    <string name="favorites">Бажане</string>
+    <string name="account">Кабінет</string>
+    <!-- Header -->
+    <string name="user_info">Особисті дані</string>
+    <string name="my_profile">Мій профіль</string>
+    <string name="not_reg">Увійдіть або зареєструйтесь</string>
+    <!-- Navigation view -->
+    <string name="order_history">Ваші замовлення</string>
+    <string name="promo">Персональні промокоди</string>
+    <string name="chat">Чат з продавцем</string>
+    <string name="sign_in">Увійти в кабінет</string>
+    <string name="sign_out">Вийти</string>
+    <string name="registration">Реєстрація</string>
+    <!-- Auth -->
+    <string name="registration_title">Створити акаунт</string>
+    <string name="sign_in_title">Увійти</string>
+    <string name="sign_in_bt">Вхід</string>
+    <string name="email_sing_in">Email</string>
+    <string name="pass_reset">Вам відправлено лист на ваш Email для відновлення паролю</string>
+    <string name="password">Введіть пароль</string>
+    <string name="dialog_massage">Введіть свій Email</string>
+    <string name="forgot_password">Забули пароль?</string>
+    <string name="sing_up_error">Помилка реєстрації!</string>
+    <string name="sing_in_error">Помилка авторизації!</string>
+    <string name="send_verif_email_error">Помилка email верифікації!</string>
+    <string name="send_verif_done">На вашу пошту була відправлена ссилка для підтвердження реєстрації</string>
+    <string name="admin_panel">Admin panel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

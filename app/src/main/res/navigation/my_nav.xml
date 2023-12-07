@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragmentTest">
+
+    <fragment
+        android:id="@+id/homeFragmentTest"
+        android:name="com.alex_pro.shopping.test.HomeFragmentTest"
+        android:label="Admin panel"
+        tools:layout="@layout/fragment_home_test">
+        <action
+            android:id="@+id/action_homeFragmentTest_to_addFragmentTest"
+            app:destination="@id/addFragmentTest" />
+        <action
+            android:id="@+id/action_homeFragmentTest_to_updateFragment"
+            app:destination="@id/updateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragmentTest"
+        android:name="com.alex_pro.shopping.test.AddFragmentTest"
+        tools:layout="@layout/fragment_add_test">
+        <action
+            android:id="@+id/action_addFragmentTest_to_homeFragmentTest"
+            app:destination="@id/homeFragmentTest" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="com.alex_pro.shopping.test.UpdateFragment"
+        tools:layout="@layout/fragment_update">
+        <action
+            android:id="@+id/action_updateFragment_to_homeFragmentTest"
+            app:destination="@id/homeFragmentTest" />
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <argument
+            android:name="ProductName"
+            app:argType="string" />
+        <argument
+            android:name="price"
+            app:argType="string" />
+        <argument
+            android:name="ImageUrl"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>

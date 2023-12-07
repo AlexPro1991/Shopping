@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="@string/user_info">
+        <menu>
+            <item
+                android:id="@+id/orderHistory"
+                android:title="@string/order_history"
+                android:icon="@drawable/ic_order">
+
+            </item>
+            <item
+                android:id="@+id/promo"
+                android:title="@string/promo"
+                android:icon="@drawable/ic_promo">
+
+            </item>
+            <item
+                android:id="@+id/chat"
+                android:title="@string/chat"
+                android:icon="@drawable/ic_chat">
+
+            </item>
+        </menu>
+    </item>
+    <item android:title="@string/account">
+<menu>
+    <item
+        android:id="@+id/registration"
+        android:title="@string/registration"
+        android:icon="@drawable/registration">
+    </item>
+    <item
+        android:id="@+id/signIn"
+        android:title="@string/sign_in"
+        android:icon="@drawable/sign_in">
+    </item>
+    <item
+        android:id="@+id/signOut"
+        android:title="@string/sign_out"
+        android:icon="@drawable/sign_out">
+    </item>
+
+</menu>
+
+    </item>
+
+    <item android:title="Admin">
+        <menu>
+            <item
+                android:id="@+id/signInAdminItem"
+                android:title="@string/admin_panel"
+                android:icon="@drawable/ic_admin_panel"
+                >
+            </item>
+
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test.AddFragmentTest">
+
+    <EditText
+        android:id="@+id/edUpdateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Наиминование"
+        android:inputType="text|textCapSentences"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/imUpdate"
+        app:layout_constraintStart_toStartOf="@+id/imUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/imUpdate" />
+
+    <EditText
+        android:id="@+id/edUpdatePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Цена"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/edUpdateName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edUpdateName"
+        app:layout_constraintTop_toBottomOf="@+id/edUpdateName" />
+
+    <Button
+        android:id="@+id/btUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/pink"
+        android:text="ОБНОВИТЬ"
+        app:layout_constraintEnd_toEndOf="@+id/edUpdatePhone"
+        app:layout_constraintStart_toStartOf="@+id/edUpdatePhone"
+        app:layout_constraintTop_toBottomOf="@+id/edUpdatePhone" />
+
+    <ImageView
+        android:id="@+id/imUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_add_im"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
