@@ -22,9 +22,9 @@ private lateinit var navController:NavController
         setContentView(binding.root)
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
          navController = findNavController(R.id.fragmentContainerView)
-        val appBarConfig = AppBarConfiguration(setOf(
-            R.id.homeFragmentTest,
-            R.id.addFragmentTest))
-        setupActionBarWithNavController(navController,appBarConfig)
+       // val appBarConfig = AppBarConfiguration(setOf(
+          //  R.id.homeFragmentTest,
+          //  R.id.addFragmentTest))
+        //setupActionBarWithNavController(navController,appBarConfig)
     }
 }
